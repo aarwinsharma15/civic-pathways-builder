@@ -79,7 +79,7 @@ const OurWork = () => (
             Fair Student Funding
           </h2>
           <p className="text-foreground/80 leading-relaxed max-w-3xl mb-6">
-            CYI is mobilizing youth in response to OSAP cuts and education policy decisions that impact students across the GTA. We run petitions, door-to-door canvassing, and advocacy team initiatives.
+            CYI is mobilizing youth in response to OSAP cuts and education policy decisions that impact students across the GTA. We run petitions, door-to-door canvassing, and advocacy team initiatives!
           </p>
 
           <div className="mt-10 text-center">
