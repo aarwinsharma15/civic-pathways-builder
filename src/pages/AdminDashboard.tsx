@@ -208,23 +208,30 @@ const AdminDashboard = () => {
                         </div>
                         <div className="p-4">
                           <p className="text-sm font-semibold text-foreground mb-3">{slot.label}</p>
-                          <label className="cursor-pointer">
-                            <Button variant="outline" size="sm" className="w-full pointer-events-none" asChild={false}>
-                              <span className="flex items-center justify-center gap-2">
-                                <Upload className="h-3 w-3" /> {img ? "Replace" : "Upload"}
-                              </span>
-                            </Button>
-                            <input
-                              type="file"
-                              accept="image/*"
-                              className="hidden"
-                              onChange={(e) => {
-                                const file = e.target.files?.[0];
-                                if (file) uploadToSlot(file, slot.key);
-                                e.target.value = "";
-                              }}
-                            />
-                          </label>
+                          <input
+                            id={`upload-${slot.key}`}
+                            type="file"
+                            accept="image/*"
+                            className="hidden"
+                            onChange={(e) => {
+                              const file = e.target.files?.[0];
+                              if (file) uploadToSlot(file, slot.key);
+                              e.target.value = "";
+                            }}
+                          />
+                          <Button
+                            type="button"
+                            variant="outline"
+                            size="sm"
+                            className="w-full"
+                            onClick={() => {
+                              const input = document.getElementById(`upload-${slot.key}`) as HTMLInputElement | null;
+                              input?.click();
+                            }}
+                            disabled={isUploading}
+                          >
+                            <Upload className="h-3 w-3" /> {img ? "Replace" : "Upload"}
+                          </Button>
                         </div>
                       </div>
                     );
