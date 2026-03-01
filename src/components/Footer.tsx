@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
@@ -38,6 +39,14 @@ const Footer = () => (
             <Link to="/privacy-policy" className="hover:text-primary-foreground transition-colors">Privacy Policy</Link>
             <Link to="/code-of-conduct" className="hover:text-primary-foreground transition-colors">Code of Conduct</Link>
             <Link to="/admin/login" className="hover:text-primary-foreground transition-colors">Admin Login</Link>
+            <div className="flex gap-3 mt-2">
+              <a href="https://www.linkedin.com/company/canadian-youth-institute/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors" aria-label="LinkedIn">
+                <Linkedin className="h-4 w-4" />
+              </a>
+              <a href="https://www.instagram.com/cyi_global/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors" aria-label="Instagram">
+                <Instagram className="h-4 w-4" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
