@@ -15,7 +15,7 @@ const Hiring = () => {
     <Layout>
       {/* Hero with image */}
       <section className="relative min-h-[70vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${hiringHero})` }} />
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${hiringHero}')` }} />
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 text-center px-6 max-w-3xl">
           <motion.h1
