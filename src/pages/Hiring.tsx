@@ -8,14 +8,14 @@ import { useSiteImages } from "@/hooks/use-site-images";
 const APPLY_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSdGInMfx_K-ZuBZ67BADlN7EBX4kUu4K9A4qFP3dF13A95xMA/viewform";
 
 const Hiring = () => {
-  const siteImages = useSiteImages();
-  const hiringHero = siteImages["hiring_hero"] || hiringHeroFallback;
+  const { images: siteImages, loaded } = useSiteImages();
+  const hiringHero = siteImages["hiring_hero"] || (loaded ? hiringHeroFallback : null);
 
   return (
     <Layout>
       {/* Hero with image */}
       <section className="relative min-h-[70vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${hiringHero}')` }} />
+        {hiringHero && <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${hiringHero}')` }} />}
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 text-center px-6 max-w-3xl">
           <motion.h1

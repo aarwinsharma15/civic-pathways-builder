@@ -3,10 +3,11 @@ import { supabase } from "@/integrations/supabase/client";
 
 /**
  * Fetches admin-uploaded images from the site_images table.
- * Returns a map of section_key → file_url.
+ * Returns { images: Record<section_key, file_url>, loaded: boolean }
  */
 export function useSiteImages() {
   const [images, setImages] = useState<Record<string, string>>({});
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     supabase
@@ -20,8 +21,9 @@ export function useSiteImages() {
           }
           setImages(map);
         }
+        setLoaded(true);
       });
   }, []);
 
-  return images;
+  return { images, loaded };
 }
