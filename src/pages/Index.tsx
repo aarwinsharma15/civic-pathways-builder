@@ -39,10 +39,10 @@ const stats = [
 ];
 
 const Index = () => {
-  const siteImages = useSiteImages();
-  const heroBg = siteImages["hero_bg"] || heroBgFallback;
+  const { images: siteImages, loaded } = useSiteImages();
+  const heroBg = siteImages["hero_bg"] || (loaded ? heroBgFallback : null);
   const actionImages = actionFallbacks.map(a => ({
-    src: siteImages[a.key] || a.src,
+    src: siteImages[a.key] || (loaded ? a.src : ""),
     alt: a.alt,
   }));
 
@@ -52,7 +52,7 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('${heroBg}')` }}
+          style={heroBg ? { backgroundImage: `url('${heroBg}')` } : undefined}
         />
         <div className="absolute inset-0 bg-primary/60" />
         <div className="relative z-10 text-center px-6 max-w-4xl">
