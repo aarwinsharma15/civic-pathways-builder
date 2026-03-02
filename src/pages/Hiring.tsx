@@ -2,20 +2,26 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Mail } from "lucide-react";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import hiringHeroFallback from "@/assets/hiring-hero.jpg";
 import { useSiteImages } from "@/hooks/use-site-images";
 
 const APPLY_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSdGInMfx_K-ZuBZ67BADlN7EBX4kUu4K9A4qFP3dF13A95xMA/viewform";
 
 const Hiring = () => {
-  const { images: siteImages, loaded } = useSiteImages();
-  const hiringHero = siteImages["hiring_hero"] || (loaded ? hiringHeroFallback : null);
+  const { images: siteImages } = useSiteImages();
+  const hiringHero = siteImages["hiring_hero"] || hiringHeroFallback;
 
   return (
     <Layout>
-      {/* Hero with image */}
+      <PageSEO
+        title="Join Our Team"
+        description="Apply to join the Canadian Youth Institute executive team. Gain real leadership experience, build your resume, and make a difference in your community. Ages 14–21."
+        path="/hiring"
+        keywords="CYI hiring, youth leadership positions, Canadian Youth Institute jobs, volunteer youth team"
+      />
       <section className="relative min-h-[70vh] flex items-center justify-center">
-        {hiringHero && <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${hiringHero}')` }} />}
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${hiringHero}')` }} />
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 text-center px-6 max-w-3xl">
           <motion.h1
@@ -47,7 +53,6 @@ const Hiring = () => {
         </div>
       </section>
 
-      {/* Bottom CTA */}
       <section className="section-padding bg-muted">
         <div className="container-narrow text-center">
           <Mail className="h-12 w-12 text-primary mx-auto mb-6" />

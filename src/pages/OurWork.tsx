@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp, Users, Award, Linkedin, Instagram } from "lucide-react";
 
@@ -11,7 +12,12 @@ const stats = [
 
 const OurWork = () => (
   <Layout>
-    {/* Hero */}
+    <PageSEO
+      title="Our Work"
+      description="See how the Canadian Youth Institute drives real civic impact — from OSAP advocacy campaigns to community canvassing across Brampton and the GTA."
+      path="/our-work"
+      keywords="CYI advocacy, youth civic work Canada, OSAP campaign, youth activism Brampton"
+    />
     <section className="bg-primary section-padding pt-32 md:pt-40">
       <div className="container-narrow text-center">
         <motion.h1

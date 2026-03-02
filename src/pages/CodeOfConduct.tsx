@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 
 const CodeOfConduct = () => (
   <Layout>
+    <PageSEO title="Code of Conduct" description="Standards for respectful, safe, and mission-driven participation at the Canadian Youth Institute." path="/code-of-conduct" />
     <section className="bg-primary section-padding pt-32 md:pt-40">
       <div className="container-narrow">
         <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mb-4">Code of Conduct</h1>

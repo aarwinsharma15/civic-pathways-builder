@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
@@ -14,6 +15,12 @@ const fadeUp = {
 
 const About = () => (
   <Layout>
+    <PageSEO
+      title="About CYI"
+      description="Learn about the Canadian Youth Institute — from two founders to a 20-person civic institution empowering youth across Brampton and the GTA."
+      path="/about"
+      keywords="about CYI, Canadian Youth Institute story, youth civic organization Brampton"
+    />
     <section className="bg-primary section-padding pt-32 md:pt-40">
       <div className="container-narrow">
         <motion.h1

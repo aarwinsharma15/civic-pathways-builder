@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import { useSiteImages } from "@/hooks/use-site-images";
 
 import heroBgFallback from "@/assets/hero-bg.jpg";
@@ -39,20 +40,27 @@ const stats = [
 ];
 
 const Index = () => {
-  const { images: siteImages, loaded } = useSiteImages();
-  const heroBg = siteImages["hero_bg"] || (loaded ? heroBgFallback : null);
+  const { images: siteImages } = useSiteImages();
+  // Show fallback immediately, override only if admin uploaded one
+  const heroBg = siteImages["hero_bg"] || heroBgFallback;
   const actionImages = actionFallbacks.map(a => ({
-    src: siteImages[a.key] || (loaded ? a.src : ""),
+    src: siteImages[a.key] || a.src,
     alt: a.alt,
   }));
 
   return (
     <Layout>
+      <PageSEO
+        title="Canadian Youth Institute (CYI) | Politics, Leadership & Civic Engagement"
+        description="The Canadian Youth Institute (CYI) is a youth-led organization empowering young Canadians through leadership programs, civic engagement initiatives, and community impact opportunities."
+        path="/"
+        keywords="Canadian Youth Institute, CYI, youth leadership Canada, civic engagement youth, youth programs Brampton, youth advocacy Ontario"
+      />
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={heroBg ? { backgroundImage: `url('${heroBg}')` } : undefined}
+          style={{ backgroundImage: `url('${heroBg}')` }}
         />
         <div className="absolute inset-0 bg-primary/60" />
         <div className="relative z-10 text-center px-6 max-w-4xl">

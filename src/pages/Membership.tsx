@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import {
@@ -45,7 +46,12 @@ const whoFor = [
 
 const Membership = () => (
   <Layout>
-    {/* Hero */}
+    <PageSEO
+      title="Membership"
+      description="Join the Canadian Youth Institute. Get volunteer hours, leadership experience, access to programs, and a real platform for civic engagement. Free membership for youth."
+      path="/membership"
+      keywords="CYI membership, join CYI, youth membership Canada, volunteer hours youth, civic engagement membership"
+    />
     <section className="bg-primary section-padding pt-32 md:pt-40">
       <div className="container-narrow">
         <motion.h1

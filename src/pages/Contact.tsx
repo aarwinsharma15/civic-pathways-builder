@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -32,6 +33,12 @@ const Contact = () => {
 
   return (
     <Layout>
+      <PageSEO
+        title="Contact"
+        description="Get in touch with the Canadian Youth Institute for inquiries, partnerships, sponsorships, or volunteer opportunities. Based in Brampton, Ontario."
+        path="/contact"
+        keywords="contact CYI, Canadian Youth Institute contact, youth organization Brampton email"
+      />
       <section className="bg-primary section-padding pt-32 md:pt-40">
         <div className="container-narrow">
           <motion.h1
