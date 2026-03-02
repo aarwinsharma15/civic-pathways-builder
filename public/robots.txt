@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.canadianyouthinstitute.ca/sitemap.xml
+Sitemap: https://canadianyouthinstitute.ca/sitemap.xml
