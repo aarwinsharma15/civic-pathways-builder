@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
@@ -14,6 +15,12 @@ const fadeUp = {
 
 const Programs = () => (
   <Layout>
+    <PageSEO
+      title="Programs"
+      description="Explore CYI's youth programs — Youth Policy Council and Brampton Model United Nations. Free for members. Build policy skills, public speaking, and civic leadership."
+      path="/programs"
+      keywords="youth policy council, Brampton Model United Nations, CYI programs, youth leadership programs Canada"
+    />
     <section className="bg-primary section-padding pt-32 md:pt-40">
       <div className="container-narrow">
         <motion.h1

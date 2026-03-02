@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2, HandshakeIcon, Award } from "lucide-react";
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
+import PageSEO from "@/components/PageSEO";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -49,7 +50,12 @@ const tiers = [
 const Sponsors = () => {
   return (
     <Layout>
-      {/* Hero */}
+      <PageSEO
+        title="Sponsor & Partner"
+        description="Partner with the Canadian Youth Institute. Support youth leadership programs and civic engagement initiatives across Brampton and the GTA."
+        path="/sponsors"
+        keywords="sponsor CYI, Canadian Youth Institute sponsors, youth organization partnership, community sponsor Brampton"
+      />
       <section className="bg-primary section-padding pt-32 md:pt-40">
         <div className="container-narrow text-center">
           <motion.h1
