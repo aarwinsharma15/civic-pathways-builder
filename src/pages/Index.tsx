@@ -57,18 +57,18 @@ const Index = () => {
         keywords="Canadian Youth Institute, CYI, youth leadership Canada, civic engagement youth, youth programs Brampton, youth advocacy Ontario"
       />
       {/* HERO */}
-      <section className="relative min-h-screen flex items-center justify-center">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url('${heroBg}')` }}
         />
         <div className="absolute inset-0 bg-primary/60" />
-        <div className="relative z-10 text-center px-6 max-w-4xl">
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl w-full">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="font-heading text-3xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6"
+            className="font-heading text-2xl sm:text-3xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6"
           >
             Empowering Youth to Lead Change
           </motion.h1>
@@ -78,14 +78,14 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
-              <Button variant="default" size="lg" className="font-semibold text-base px-8">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button variant="default" size="lg" className="font-semibold text-base px-8 w-full sm:w-auto">
                 Become a Member
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </a>
-            <Link to="/our-work">
-              <Button variant="default" size="lg" className="font-semibold text-base px-8">
+            <Link to="/our-work" className="w-full sm:w-auto">
+              <Button variant="default" size="lg" className="font-semibold text-base px-8 w-full sm:w-auto">
                 Our Work
               </Button>
             </Link>
@@ -96,23 +96,19 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.35 }}
             className="mt-6 overflow-hidden rounded-full border border-primary-foreground/20 bg-primary-foreground/10 py-2"
           >
-            <motion.div
-              animate={{ x: ["0%", "-50%"] }}
-              transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
-              className="flex w-max gap-8 px-4"
-            >
-              {Array.from({ length: 8 }).map((_, i) => (
-                <span key={i} className="text-sm md:text-base font-semibold tracking-wide uppercase text-primary-foreground">
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 px-3">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <span key={i} className="text-xs sm:text-sm md:text-base font-semibold tracking-wide uppercase text-primary-foreground">
                   Join Today
                 </span>
               ))}
-            </motion.div>
+            </div>
           </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="text-lg md:text-xl text-primary-foreground/85 mt-6 max-w-3xl mx-auto leading-relaxed"
+            className="text-base md:text-xl text-primary-foreground/85 mt-6 max-w-3xl mx-auto leading-relaxed"
           >
             The Canadian Youth Institute (CYI) is a youth-led non-profit organization dedicated to unifying ambitious young Canadians and closing the opportunity gap they all face.
           </motion.p>
@@ -131,7 +127,7 @@ const Index = () => {
             <motion.h2 variants={fadeUp} custom={0} className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
               In Action
             </motion.h2>
-            <motion.p variants={fadeUp} custom={1} className="text-muted-foreground text-lg max-w-2xl">
+            <motion.p variants={fadeUp} custom={1} className="text-base md:text-lg max-w-2xl text-muted-foreground">
               CYI youth engaging in real civic participation across Brampton and the Greater Toronto Area.
             </motion.p>
           </motion.div>
@@ -185,14 +181,14 @@ const Index = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12"
+            className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 mb-12"
           >
             {stats.map((s, i) => (
               <motion.div key={i} variants={fadeUp} custom={i}>
-                <div className="font-heading text-2xl md:text-5xl font-bold text-dark-section-foreground mb-2">
+                <div className="font-heading text-xl sm:text-2xl md:text-5xl font-bold text-dark-section-foreground mb-2">
                   {s.value}
                 </div>
-                <div className="text-sm md:text-base text-dark-section-foreground/60">
+                <div className="text-xs sm:text-sm md:text-base text-dark-section-foreground/60">
                   {s.label}
                 </div>
               </motion.div>
@@ -274,7 +270,7 @@ const Index = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-lg text-secondary-foreground/85 leading-relaxed mb-10 max-w-2xl mx-auto"
+            className="text-base md:text-lg text-secondary-foreground/85 leading-relaxed mb-10 max-w-2xl mx-auto"
           >
             If you are passionate about your community, want your voice heard, and are looking to gain volunteer hours, resume-building experience, and real leadership skills — CYI membership is your entry point.
           </motion.p>

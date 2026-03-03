@@ -35,7 +35,7 @@ const Hiring = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
-            className="text-lg md:text-xl text-primary-foreground/85 leading-relaxed mb-8"
+            className="text-base md:text-xl text-primary-foreground/85 leading-relaxed mb-8"
           >
             We are looking for passionate and dedicated leaders aged 14–21 to join our executive team. Gain real leadership experience, build your resume, and make a difference in your community.
           </motion.p>

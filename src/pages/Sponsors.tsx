@@ -61,7 +61,7 @@ const Sponsors = () => {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mb-6"
+            className="font-heading text-3xl md:text-5xl font-bold text-primary-foreground mb-6"
           >
             Partner With Us
           </motion.h1>
@@ -69,7 +69,7 @@ const Sponsors = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
-            className="text-lg text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed"
+            className="text-base md:text-lg text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed"
           >
             Support the next generation of civic leaders. CYI sponsors help us deliver programs, events, and resources that empower youth across Brampton and the GTA.
           </motion.p>

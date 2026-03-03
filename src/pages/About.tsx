@@ -26,7 +26,7 @@ const About = () => (
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4"
+          className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4"
         >
           About CYI
         </motion.h1>
@@ -34,7 +34,7 @@ const About = () => (
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15 }}
-          className="text-lg text-primary-foreground/80"
+          className="text-base md:text-lg text-primary-foreground/80"
         >
           From two founders to a structured civic institution.
         </motion.p>

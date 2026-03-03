@@ -57,7 +57,7 @@ const Membership = () => (
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-8"
+          className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-8"
         >
           Membership
         </motion.h1>
@@ -65,7 +65,7 @@ const Membership = () => (
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15 }}
-          className="text-lg text-primary-foreground/80 leading-relaxed"
+          className="text-base md:text-lg text-primary-foreground/80 leading-relaxed"
         >
           CYI Membership is designed for youth who are ready to break into politics, advocacy, and civic leadership. Whether you want to gain volunteer hours, build experience for your resume, strengthen your leadership skills, or simply ensure your voice is heard — this is your starting point.
         </motion.p>
@@ -119,7 +119,7 @@ const Membership = () => (
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-lg text-foreground/80 mb-8"
+          className="text-base md:text-lg text-foreground/80 mb-8"
         >
           This is for youth who:
         </motion.p>
@@ -137,7 +137,7 @@ const Membership = () => (
               className="flex items-center gap-3 text-foreground/80"
             >
               <div className="w-2 h-2 rounded-full bg-secondary shrink-0" />
-              <span className="text-lg">{item}</span>
+              <span className="text-base md:text-lg">{item}</span>
             </motion.li>
           ))}
         </motion.ul>
