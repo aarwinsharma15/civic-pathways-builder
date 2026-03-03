@@ -61,7 +61,7 @@ const Contact = () => {
 
       <section className="section-padding bg-card">
         <div className="container-wide">
-          <div className="grid lg:grid-cols-3 gap-16">
+          <div className="grid lg:grid-cols-3 gap-8 lg:gap-16">
             <div className="space-y-8">
               <div>
                 <h3 className="font-heading text-xl font-bold text-foreground mb-4">Get in Touch</h3>

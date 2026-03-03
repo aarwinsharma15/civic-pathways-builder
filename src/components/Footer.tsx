@@ -3,8 +3,8 @@ import { Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
-    <div className="container-wide py-16">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div className="container-wide py-10 md:py-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
         <div>
           <h3 className="font-heading text-xl font-bold mb-4">Canadian Youth Institute</h3>
           <p className="text-primary-foreground/70 text-sm leading-relaxed">
@@ -50,7 +50,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-xs text-primary-foreground/50">
+      <div className="border-t border-primary-foreground/10 mt-8 md:mt-12 pt-6 md:pt-8 text-center text-xs text-primary-foreground/50">
         © {new Date().getFullYear()} Canadian Youth Institute. All rights reserved.
       </div>
     </div>

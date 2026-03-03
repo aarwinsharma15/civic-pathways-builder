@@ -44,7 +44,7 @@ const Programs = () => (
     {/* Youth Policy Council */}
     <section className="section-padding bg-card">
       <div className="container-wide">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }}>
             <motion.div variants={fadeUp} custom={0} className="inline-block px-3 py-1 rounded-sm bg-secondary/10 text-secondary text-xs font-semibold uppercase tracking-wider mb-4">
               Launching April 2026

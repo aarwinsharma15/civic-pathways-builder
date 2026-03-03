@@ -98,7 +98,7 @@ const Sponsors = () => {
                 key={tier.name}
                 variants={fadeUp}
                 custom={i}
-                className="border border-border rounded-md p-8 bg-card hover:shadow-md transition-shadow"
+                className="border border-border rounded-md p-5 md:p-8 bg-card hover:shadow-md transition-shadow"
               >
                 <tier.icon className="h-10 w-10 text-primary mb-4" />
                 <h3 className="font-heading text-2xl font-bold text-foreground mb-4">{tier.name}</h3>
