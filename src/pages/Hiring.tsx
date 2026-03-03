@@ -27,7 +27,7 @@ const Hiring = () => {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6"
+            className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6"
           >
             Join Our Executive Team
           </motion.h1>

@@ -79,7 +79,7 @@ const About = () => (
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
             >
-              <div className="font-heading text-3xl md:text-5xl font-bold text-dark-section-foreground mb-2">{s.value}</div>
+              <div className="font-heading text-2xl md:text-5xl font-bold text-dark-section-foreground mb-2">{s.value}</div>
               <div className="text-sm text-dark-section-foreground/60">{s.label}</div>
             </motion.div>
           ))}

@@ -68,7 +68,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6"
+            className="font-heading text-3xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6"
           >
             Empowering Youth to Lead Change
           </motion.h1>
@@ -189,7 +189,7 @@ const Index = () => {
           >
             {stats.map((s, i) => (
               <motion.div key={i} variants={fadeUp} custom={i}>
-                <div className="font-heading text-3xl md:text-5xl font-bold text-dark-section-foreground mb-2">
+                <div className="font-heading text-2xl md:text-5xl font-bold text-dark-section-foreground mb-2">
                   {s.value}
                 </div>
                 <div className="text-sm md:text-base text-dark-section-foreground/60">
@@ -242,7 +242,7 @@ const Index = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.15 }}
-                className="bg-card border border-border rounded-md p-8 shadow-sm hover:shadow-md transition-shadow"
+                className="bg-card border border-border rounded-md p-5 md:p-8 shadow-sm hover:shadow-md transition-shadow"
               >
                 <h3 className="font-heading text-2xl font-bold text-foreground mb-3">{p.title}</h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">{p.desc}</p>

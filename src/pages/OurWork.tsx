@@ -45,11 +45,11 @@ const OurWork = () => (
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-16"
+          className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-8 md:mb-16"
         >
           Our Growth
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {stats.map((s, i) => (
             <motion.div
               key={i}
@@ -59,10 +59,10 @@ const OurWork = () => (
               transition={{ delay: i * 0.15 }}
               className="flex flex-col items-center"
             >
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mb-6">
-                <s.icon className="h-10 w-10 text-primary" />
+              <div className="w-14 h-14 md:w-20 md:h-20 rounded-full bg-primary/10 flex items-center justify-center mb-4 md:mb-6">
+                <s.icon className="h-7 w-7 md:h-10 md:w-10 text-primary" />
               </div>
-              <div className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-3">{s.value}</div>
+              <div className="font-heading text-3xl md:text-7xl font-bold text-foreground mb-3">{s.value}</div>
               <div className="text-base text-muted-foreground font-medium">{s.label}</div>
             </motion.div>
           ))}
