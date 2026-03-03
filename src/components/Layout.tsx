@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Layout = ({ children }: { children: ReactNode }) => (
-  <div className="min-h-screen flex flex-col">
+  <div className="min-h-screen flex flex-col overflow-x-hidden">
     <Navbar />
-    <main className="flex-1">{children}</main>
+    <main className="flex-1 overflow-x-hidden">{children}</main>
     <Footer />
   </div>
 );

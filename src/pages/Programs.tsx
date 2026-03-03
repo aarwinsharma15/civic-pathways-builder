@@ -26,7 +26,7 @@ const Programs = () => (
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4"
+          className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4"
         >
           Programs
         </motion.h1>
@@ -34,7 +34,7 @@ const Programs = () => (
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15 }}
-          className="text-lg text-primary-foreground/80"
+          className="text-base md:text-lg text-primary-foreground/80"
         >
           Structured civic programming for youth who want to lead.
         </motion.p>
@@ -52,7 +52,7 @@ const Programs = () => (
             <motion.h2 variants={fadeUp} custom={1} className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
               Youth Policy Council
             </motion.h2>
-            <motion.p variants={fadeUp} custom={2} className="text-lg text-foreground/80 leading-relaxed mb-6">
+            <motion.p variants={fadeUp} custom={2} className="text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
               Members research policy issues affecting youth, draft structured recommendations, debate solutions, and present ideas publicly. The Youth Policy Council is CYI's flagship deliberative body.
             </motion.p>
             <motion.div variants={fadeUp} custom={3} className="space-y-3 mb-8">
@@ -77,7 +77,7 @@ const Programs = () => (
             <motion.h2 variants={fadeUp} custom={1} className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
               Brampton Model United Nations
             </motion.h2>
-            <motion.p variants={fadeUp} custom={2} className="text-lg text-foreground/80 leading-relaxed mb-6">
+            <motion.p variants={fadeUp} custom={2} className="text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
               A one-day conference simulation where delegates are assigned countries, draft resolutions, and engage in moderated debate on pressing global issues. Professional and rigorous.
             </motion.p>
             <motion.div variants={fadeUp} custom={3} className="space-y-3 mb-8">

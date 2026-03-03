@@ -127,6 +127,11 @@
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  #root {
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4 {
@@ -136,14 +141,14 @@
 
 @layer utilities {
   .section-padding {
-    @apply py-12 md:py-28 lg:py-32;
+    @apply py-10 md:py-24 lg:py-28;
   }
 
   .container-narrow {
-    @apply max-w-3xl mx-auto px-4 sm:px-6;
+    @apply max-w-3xl mx-auto px-4 md:px-6;
   }
 
   .container-wide {
-    @apply max-w-7xl mx-auto px-4 sm:px-6;
+    @apply max-w-7xl mx-auto px-4 md:px-6;
   }
 }

@@ -23,7 +23,7 @@ const OurWork = () => (
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mb-4"
+          className="font-heading text-3xl md:text-5xl font-bold text-primary-foreground mb-4"
         >
           Our Work
         </motion.h1>
@@ -31,7 +31,7 @@ const OurWork = () => (
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15 }}
-          className="text-lg text-primary-foreground/80"
+          className="text-base md:text-lg text-primary-foreground/80"
         >
           Real civic work, built for lasting impact.
         </motion.p>
@@ -62,8 +62,8 @@ const OurWork = () => (
               <div className="w-14 h-14 md:w-20 md:h-20 rounded-full bg-primary/10 flex items-center justify-center mb-4 md:mb-6">
                 <s.icon className="h-7 w-7 md:h-10 md:w-10 text-primary" />
               </div>
-              <div className="font-heading text-3xl md:text-7xl font-bold text-foreground mb-3">{s.value}</div>
-              <div className="text-base text-muted-foreground font-medium">{s.label}</div>
+              <div className="font-heading text-2xl md:text-7xl font-bold text-foreground mb-3">{s.value}</div>
+              <div className="text-sm md:text-base text-muted-foreground font-medium">{s.label}</div>
             </motion.div>
           ))}
         </div>
@@ -97,19 +97,19 @@ const OurWork = () => (
                 href="https://www.linkedin.com/company/canadian-youth-institute/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="h-8 w-8" />
+                <Linkedin className="h-6 w-6 md:h-8 md:w-8" />
               </a>
               <a
                 href="https://www.instagram.com/cyi_global/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram className="h-8 w-8" />
+                <Instagram className="h-6 w-6 md:h-8 md:w-8" />
               </a>
             </div>
           </div>

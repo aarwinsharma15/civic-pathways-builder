@@ -27,15 +27,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const navBg = scrolled || !isHome
+  const navBg = scrolled || !isHome || mobileOpen
     ? "bg-primary shadow-lg"
-    : "bg-transparent";
+    : "bg-primary lg:bg-transparent";
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navBg}`}>
-      <div className="container-wide flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="flex items-center gap-2 text-primary-foreground font-heading text-lg md:text-2xl font-bold tracking-tight">
-          <img src={cyiLogo} alt="CYI Logo" className="h-9 md:h-12 w-auto shrink-0" />
+      <div className="container-wide flex items-center justify-between h-14 md:h-20">
+        <Link to="/" className="flex items-center gap-2 text-primary-foreground font-heading text-base md:text-2xl font-bold tracking-tight">
+          <img src={cyiLogo} alt="CYI Logo" className="h-8 md:h-12 w-auto shrink-0" />
           <span className="hidden sm:inline">Canadian Youth Institute</span>
           <span className="sm:hidden">CYI</span>
         </Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="lg:hidden bg-primary border-t border-primary-foreground/10">
-          <div className="container-wide py-4 flex flex-col gap-3">
+          <div className="container-wide py-4 flex flex-col gap-3 max-h-[calc(100vh-3.5rem)] overflow-y-auto">
             {navLinks.map((l) => (
               <Link
                 key={l.path}
