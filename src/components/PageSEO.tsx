@@ -7,7 +7,7 @@ interface PageSEOProps {
   keywords?: string;
 }
 
-const SITE = "https://www.canadianyouthinstitute.ca";
+const SITE = "https://canadianyouthinstitute.ca";
 const SITE_NAME = "Canadian Youth Institute";
 const OG_IMAGE = `${SITE}/og-image.png`;
 
