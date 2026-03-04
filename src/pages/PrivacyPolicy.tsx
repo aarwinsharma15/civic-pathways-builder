@@ -5,7 +5,7 @@ import PageSEO from "@/components/PageSEO";
 const PrivacyPolicy = () => (
   <Layout>
     <PageSEO title="Privacy Policy" description="How the Canadian Youth Institute collects, uses, and protects your information." path="/privacy-policy" />
-    <section className="bg-primary section-padding pt-32 md:pt-40">
+    <section className="bg-primary page-header">
       <div className="container-narrow">
         <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mb-4">Privacy Policy</h1>
         <p className="text-lg text-primary-foreground/80">How CYI collects, uses, and protects your information.</p>

@@ -144,6 +144,10 @@
     @apply py-10 md:py-24 lg:py-28;
   }
 
+  .page-header {
+    @apply pt-24 pb-10 md:pt-40 md:pb-12;
+  }
+
   .container-narrow {
     @apply max-w-3xl mx-auto px-4 md:px-6;
   }

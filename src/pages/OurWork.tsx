@@ -18,7 +18,7 @@ const OurWork = () => (
       path="/our-work"
       keywords="CYI advocacy, youth civic work Canada, OSAP campaign, youth activism Brampton"
     />
-    <section className="bg-primary section-padding pt-32 md:pt-40">
+    <section className="bg-primary page-header">
       <div className="container-narrow text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
