@@ -54,7 +54,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
-            <Button variant="default" size="sm" className="font-semibold">
+            <Button variant="default" size="sm" className="font-semibold bg-primary/80 hover:bg-primary/70">
               Become a Member
             </Button>
           </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>
-              <Button variant="default" size="sm" className="w-full font-semibold mt-2">
+              <Button variant="default" size="sm" className="w-full font-semibold mt-2 bg-primary/80 hover:bg-primary/70">
                 Become a Member
               </Button>
             </a>
