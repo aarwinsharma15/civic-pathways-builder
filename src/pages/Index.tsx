@@ -79,7 +79,7 @@ const Index = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-              <Button variant="default" size="lg" className="font-semibold text-base px-8 w-full sm:w-auto">
+              <Button variant="default" size="lg" className="font-semibold text-base px-8 w-full sm:w-auto bg-primary/80 hover:bg-primary/70">
                 Become a Member
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -96,9 +96,9 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.35 }}
             className="mt-6 overflow-hidden rounded-full border border-primary-foreground/20 bg-primary-foreground/10 py-2"
           >
-            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 px-3">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <span key={i} className="text-xs sm:text-sm md:text-base font-semibold tracking-wide uppercase text-primary-foreground">
+            <div className="flex whitespace-nowrap animate-marquee">
+              {Array.from({ length: 12 }).map((_, i) => (
+                <span key={i} className="text-xs sm:text-sm md:text-base font-semibold tracking-wide uppercase text-primary-foreground mx-4 shrink-0">
                   Join Today
                 </span>
               ))}
@@ -281,7 +281,7 @@ const Index = () => {
             transition={{ delay: 0.2 }}
           >
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
-              <Button variant="default" size="lg" className="font-semibold text-base px-10">
+              <Button variant="default" size="lg" className="font-semibold text-base px-10 bg-primary/80 hover:bg-primary/70">
                 Become a Member
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
