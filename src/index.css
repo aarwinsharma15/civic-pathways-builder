@@ -145,7 +145,7 @@
   }
 
   .page-header {
-    @apply pt-24 pb-10 md:pt-40 md:pb-12;
+    @apply section-padding pt-24 md:pt-40;
   }
 
   .container-narrow {
