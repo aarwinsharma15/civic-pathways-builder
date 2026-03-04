@@ -145,7 +145,22 @@
   }
 
   .page-header {
-    @apply section-padding pt-24 md:pt-40;
+    padding-top: 6rem;
+    padding-bottom: 2.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .page-header {
+      padding-top: 10rem;
+      padding-bottom: 6rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .page-header {
+      padding-top: 10rem;
+      padding-bottom: 7rem;
+    }
   }
 
   .container-narrow {
