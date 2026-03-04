@@ -21,7 +21,7 @@ const Programs = () => (
       path="/programs"
       keywords="youth policy council, Brampton Model United Nations, CYI programs, youth leadership programs Canada"
     />
-    <section className="bg-primary section-padding pt-32 md:pt-40">
+    <section className="bg-primary page-header">
       <div className="container-narrow">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}

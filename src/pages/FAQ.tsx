@@ -53,7 +53,7 @@ const FAQ = () => {
         path="/faq"
         keywords="CYI FAQ, Canadian Youth Institute questions, join CYI, youth leadership FAQ"
       />
-      <section className="bg-primary section-padding pt-32 md:pt-40">
+      <section className="bg-primary page-header">
         <div className="container-narrow">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}

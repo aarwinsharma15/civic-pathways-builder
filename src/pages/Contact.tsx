@@ -39,7 +39,7 @@ const Contact = () => {
         path="/contact"
         keywords="contact CYI, Canadian Youth Institute contact, youth organization Brampton email"
       />
-      <section className="bg-primary section-padding pt-32 md:pt-40">
+      <section className="bg-primary page-header">
         <div className="container-narrow">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
