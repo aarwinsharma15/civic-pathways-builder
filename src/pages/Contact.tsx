@@ -18,8 +18,8 @@ const Contact = () => {
     e.preventDefault();
     setSending(true);
     try {
-      const mailtoLink = `mailto:info.can.cyi@gmail.com?subject=${encodeURIComponent(
-        `[CYI Website] ${form.subject}`
+      const mailtoLink = `mailto:info.youthofpeel@gmail.com?subject=${encodeURIComponent(
+        `[YOP Website] ${form.subject}`
       )}&body=${encodeURIComponent(
         `From: ${form.name} (${form.email})\n\n${form.message}`
       )}`;
@@ -35,9 +35,9 @@ const Contact = () => {
     <Layout>
       <PageSEO
         title="Contact"
-        description="Get in touch with the Canadian Youth Institute for inquiries, partnerships, sponsorships, or volunteer opportunities. Based in Brampton, Ontario."
+        description="Get in touch with Youth of Peel for inquiries, partnerships, sponsorships, or volunteer opportunities. Based in the Region of Peel, Ontario."
         path="/contact"
-        keywords="contact CYI, Canadian Youth Institute contact, youth organization Brampton email"
+        keywords="contact YOP, Youth of Peel contact, youth organization Peel email"
       />
       <section className="bg-primary page-header">
         <div className="container-narrow">
@@ -70,8 +70,8 @@ const Contact = () => {
                     <Mail className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm font-medium text-foreground">Email</p>
-                      <a href="mailto:info.can.cyi@gmail.com" className="text-sm text-muted-foreground hover:text-secondary transition-colors">
-                        info.can.cyi@gmail.com
+                      <a href="mailto:info.youthofpeel@gmail.com" className="text-sm text-muted-foreground hover:text-secondary transition-colors">
+                        info.youthofpeel@gmail.com
                       </a>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                     <MapPin className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
                     <div>
                       <p className="text-sm font-medium text-foreground">Location</p>
-                      <p className="text-sm text-muted-foreground">Brampton, Ontario</p>
+                      <p className="text-sm text-muted-foreground">Region of Peel, Ontario</p>
                     </div>
                   </div>
                 </div>
