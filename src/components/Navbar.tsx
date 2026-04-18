@@ -35,7 +35,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navBg}`}>
       <div className="container-wide flex items-center justify-between h-14 md:h-20">
         <Link to="/" className="flex items-center gap-2 text-primary-foreground font-heading text-base md:text-2xl font-bold tracking-tight">
-          <img src={cyiLogo} alt="Youth of Peel Logo" className="h-8 md:h-12 w-auto shrink-0" />
+          <img src={cyiLogo} alt="Youth of Peel Logo" className="h-10 md:h-14 w-auto shrink-0" />
           <span className="hidden sm:inline">Youth of Peel</span>
           <span className="sm:hidden">YOP</span>
         </Link>

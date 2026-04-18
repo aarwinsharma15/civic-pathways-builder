@@ -6,51 +6,51 @@
 
 @layer base {
   :root {
-    /* Youth of Peel — Peel/Brampton civic palette
-       Cream background, deep royal blue primary, golden yellow secondary, civic red accent */
-    --background: 42 50% 97%;        /* warm cream */
-    --foreground: 220 60% 12%;       /* near-navy ink */
+    /* Youth of Peel — Professional palette
+       White base, soft cream sections, deep navy primary, near-black ink, subtle red accent */
+    --background: 0 0% 100%;          /* clean white */
+    --foreground: 220 25% 10%;        /* near-black ink */
 
-    --card: 0 0% 100%;               /* pure white card */
-    --card-foreground: 220 60% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 60% 12%;
+    --popover-foreground: 220 25% 10%;
 
-    --primary: 220 75% 28%;          /* royal Peel blue */
-    --primary-foreground: 42 50% 97%;
+    --primary: 218 55% 22%;           /* deep professional navy */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 92% 52%;         /* golden yellow */
-    --secondary-foreground: 220 60% 12%;
+    --secondary: 38 35% 92%;          /* warm cream */
+    --secondary-foreground: 220 25% 10%;
 
-    --muted: 42 35% 92%;             /* soft cream */
-    --muted-foreground: 220 20% 38%;
+    --muted: 38 30% 95%;              /* very soft cream */
+    --muted-foreground: 220 15% 38%;
 
-    --accent: 45 92% 52%;            /* yellow accent */
-    --accent-foreground: 220 60% 12%;
+    --accent: 38 35% 88%;             /* cream accent */
+    --accent-foreground: 220 25% 10%;
 
-    --destructive: 0 75% 48%;
+    --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 30% 85%;
-    --input: 220 30% 85%;
-    --ring: 220 75% 28%;
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 218 55% 22%;
 
     --radius: 0.5rem;
 
-    --civic-red: 0 78% 45%;
+    --civic-red: 0 70% 45%;
     --civic-red-foreground: 0 0% 100%;
-    --dark-section: 220 75% 18%;     /* deep navy section */
-    --dark-section-foreground: 42 50% 97%;
+    --dark-section: 220 25% 10%;      /* near-black section */
+    --dark-section-foreground: 0 0% 100%;
 
-    --sidebar-background: 42 50% 97%;
-    --sidebar-foreground: 220 60% 12%;
-    --sidebar-primary: 220 75% 28%;
-    --sidebar-primary-foreground: 42 50% 97%;
-    --sidebar-accent: 45 92% 52%;
-    --sidebar-accent-foreground: 220 60% 12%;
-    --sidebar-border: 220 30% 85%;
-    --sidebar-ring: 220 75% 28%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 25% 10%;
+    --sidebar-primary: 218 55% 22%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 38 35% 92%;
+    --sidebar-accent-foreground: 220 25% 10%;
+    --sidebar-border: 220 15% 88%;
+    --sidebar-ring: 218 55% 22%;
 
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
