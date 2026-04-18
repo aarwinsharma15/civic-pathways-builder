@@ -6,49 +6,51 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
+    /* Youth of Peel — Peel/Brampton civic palette
+       Cream background, deep royal blue primary, golden yellow secondary, civic red accent */
+    --background: 42 50% 97%;        /* warm cream */
+    --foreground: 220 60% 12%;       /* near-navy ink */
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 0%;
+    --card: 0 0% 100%;               /* pure white card */
+    --card-foreground: 220 60% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
+    --popover-foreground: 220 60% 12%;
 
-    --primary: 0 0% 0%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 220 75% 28%;          /* royal Peel blue */
+    --primary-foreground: 42 50% 97%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 0%;
+    --secondary: 45 92% 52%;         /* golden yellow */
+    --secondary-foreground: 220 60% 12%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 42 35% 92%;             /* soft cream */
+    --muted-foreground: 220 20% 38%;
 
-    --accent: 0 0% 90%;
-    --accent-foreground: 0 0% 0%;
+    --accent: 45 92% 52%;            /* yellow accent */
+    --accent-foreground: 220 60% 12%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 75% 48%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 0%;
-    --input: 0 0% 0%;
-    --ring: 0 0% 0%;
+    --border: 220 30% 85%;
+    --input: 220 30% 85%;
+    --ring: 220 75% 28%;
 
-    --radius: 0rem;
+    --radius: 0.5rem;
 
-    --civic-red: 0 65% 42%;
+    --civic-red: 0 78% 45%;
     --civic-red-foreground: 0 0% 100%;
-    --dark-section: 0 40% 12%;
-    --dark-section-foreground: 36 33% 97%;
+    --dark-section: 220 75% 18%;     /* deep navy section */
+    --dark-section-foreground: 42 50% 97%;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 0 0% 0%;
-    --sidebar-primary: 0 0% 0%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 90%;
-    --sidebar-accent-foreground: 0 0% 0%;
-    --sidebar-border: 0 0% 0%;
-    --sidebar-ring: 0 0% 0%;
+    --sidebar-background: 42 50% 97%;
+    --sidebar-foreground: 220 60% 12%;
+    --sidebar-primary: 220 75% 28%;
+    --sidebar-primary-foreground: 42 50% 97%;
+    --sidebar-accent: 45 92% 52%;
+    --sidebar-accent-foreground: 220 60% 12%;
+    --sidebar-border: 220 30% 85%;
+    --sidebar-ring: 220 75% 28%;
 
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
