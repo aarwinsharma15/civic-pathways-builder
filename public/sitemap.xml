@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://canadianyouthinstitute.ca/</loc>
+    <loc>https://youthofpeel.ca/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/membership</loc>
+    <loc>https://youthofpeel.ca/membership</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/our-work</loc>
+    <loc>https://youthofpeel.ca/our-work</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/programs</loc>
+    <loc>https://youthofpeel.ca/programs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/hiring</loc>
+    <loc>https://youthofpeel.ca/hiring</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/about</loc>
+    <loc>https://youthofpeel.ca/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/sponsors</loc>
+    <loc>https://youthofpeel.ca/sponsors</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/contact</loc>
+    <loc>https://youthofpeel.ca/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/privacy-policy</loc>
+    <loc>https://youthofpeel.ca/privacy-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/code-of-conduct</loc>
+    <loc>https://youthofpeel.ca/code-of-conduct</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://canadianyouthinstitute.ca/faq</loc>
+    <loc>https://youthofpeel.ca/faq</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

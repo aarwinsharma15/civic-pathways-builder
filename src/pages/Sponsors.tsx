@@ -20,9 +20,9 @@ const tiers = [
     icon: Award,
     benefits: [
       "Logo on all event materials & website homepage",
-      "Speaking opportunity at CYI flagship events",
+      "Speaking opportunity at YOP flagship events",
       "Co-branded social media campaigns",
-      "Priority access to CYI research & publications",
+      "Priority access to YOP research & publications",
       "Exclusive invitations to roundtable discussions",
     ],
   },
@@ -32,7 +32,7 @@ const tiers = [
     benefits: [
       "Logo on website sponsors page",
       "Social media recognition",
-      "Invitation to CYI public events",
+      "Invitation to YOP public events",
       "Mention in quarterly newsletter",
     ],
   },
@@ -52,9 +52,9 @@ const Sponsors = () => {
     <Layout>
       <PageSEO
         title="Sponsor & Partner"
-        description="Partner with the Canadian Youth Institute. Support youth leadership programs and civic engagement initiatives across Brampton and the GTA."
+        description="Partner with Youth of Peel. Support youth leadership programs and civic engagement initiatives across the Region of Peel."
         path="/sponsors"
-        keywords="sponsor CYI, Canadian Youth Institute sponsors, youth organization partnership, community sponsor Brampton"
+        keywords="sponsor YOP, Youth of Peel sponsors, youth organization partnership, community sponsor Peel"
       />
       <section className="bg-primary page-header">
         <div className="container-narrow text-center">
@@ -71,7 +71,7 @@ const Sponsors = () => {
             transition={{ delay: 0.15 }}
             className="text-base md:text-lg text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed"
           >
-            Support the next generation of civic leaders. CYI sponsors help us deliver programs, events, and resources that empower youth across Brampton and the GTA.
+            Support the next generation of civic leaders. YOP sponsors help us deliver programs, events, and resources that empower youth across the Region of Peel.
           </motion.p>
         </div>
       </section>
@@ -134,10 +134,10 @@ const Sponsors = () => {
             transition={{ delay: 0.1 }}
             className="text-lg text-secondary-foreground/80 mb-10 max-w-xl mx-auto"
           >
-            Interested in partnering with CYI? Reach out to discuss how we can work together.
+            Interested in partnering with YOP? Reach out to discuss how we can work together.
           </motion.p>
           <Link to="/contact">
-            <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold px-10">
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-10">
               Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>

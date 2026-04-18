@@ -16,10 +16,10 @@ const fadeUp = {
 const About = () => (
   <Layout>
     <PageSEO
-      title="About CYI"
-      description="Learn about the Canadian Youth Institute — from two founders to a 20-person civic institution empowering youth across Brampton and the GTA."
+      title="About YOP"
+      description="Learn about Youth of Peel — from two founders to a 20-person civic institution empowering youth across the Region of Peel."
       path="/about"
-      keywords="about CYI, Canadian Youth Institute story, youth civic organization Brampton"
+      keywords="about YOP, Youth of Peel story, youth civic organization Peel"
     />
     <section className="bg-primary page-header">
       <div className="container-narrow">
@@ -28,7 +28,7 @@ const About = () => (
           animate={{ opacity: 1, y: 0 }}
           className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4"
         >
-          About CYI
+          About YOP
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -48,13 +48,13 @@ const About = () => (
             Our Story
           </motion.h2>
           <motion.p variants={fadeUp} custom={1} className="text-lg text-foreground/80 leading-relaxed mb-6">
-            The Canadian Youth Institute was founded by two youth leaders in Brampton who recognized a gap between youth passion and structured civic opportunity. Too many young people were told their voices mattered — but given no real platform, no real structure, and no real pathway into political engagement.
+            Youth of Peel was founded by two youth leaders in the Region of Peel who recognized a gap between youth passion and structured civic opportunity. Too many young people were told their voices mattered — but given no real platform, no real structure, and no real pathway into political engagement.
           </motion.p>
           <motion.p variants={fadeUp} custom={2} className="text-lg text-foreground/80 leading-relaxed mb-6">
-            Within six months, CYI grew from 2 founders to a 20-person team of dedicated staff and volunteers. This rapid growth reflects both the demand for structured youth civic engagement and the organizational discipline CYI was built upon.
+            Within six months, YOP grew from 2 founders to a 20-person team of dedicated staff and volunteers. This rapid growth reflects both the demand for structured youth civic engagement and the organizational discipline YOP was built upon.
           </motion.p>
           <motion.p variants={fadeUp} custom={3} className="text-lg text-foreground/80 leading-relaxed mb-6">
-            Today, CYI operates advocacy campaigns, policy programming, and community outreach — all led by youth, for youth. Our focus is on Brampton and the Greater Toronto Area, with ambitions to expand our model to serve youth across Ontario and Canada.
+            Today, YOP operates advocacy campaigns, policy programming, and community outreach — all led by youth, for youth. Our focus is on Brampton, Mississauga, Caledon, and the rest of the Region of Peel, with ambitions to expand our model to serve youth across Ontario.
           </motion.p>
           <motion.p variants={fadeUp} custom={4} className="text-lg text-foreground/80 leading-relaxed">
             We are not a social club. We are not a resume filler. We are a civic institution built by the generation that refuses to wait for a seat at the table — and is building its own.

@@ -162,7 +162,7 @@ const AdminDashboard = () => {
     <div className="min-h-screen bg-muted">
       {/* Header */}
       <div className="bg-primary text-primary-foreground px-6 py-4 flex items-center justify-between">
-        <h1 className="font-heading text-xl font-bold">CYI Admin Dashboard</h1>
+        <h1 className="font-heading text-xl font-bold">YOP Admin Dashboard</h1>
         <Button variant="ghost" size="sm" onClick={handleLogout} className="text-primary-foreground hover:bg-primary-foreground/10">
           <LogOut className="h-4 w-4 mr-2" /> Logout
         </Button>

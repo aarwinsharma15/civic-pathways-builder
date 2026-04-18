@@ -7,8 +7,8 @@ interface PageSEOProps {
   keywords?: string;
 }
 
-const SITE = "https://canadianyouthinstitute.ca";
-const SITE_NAME = "Canadian Youth Institute";
+const SITE = "https://youthofpeel.ca";
+const SITE_NAME = "Youth of Peel";
 const OG_IMAGE = `${SITE}/og-image.png`;
 
 const PageSEO = ({ title, description, path, keywords }: PageSEOProps) => {

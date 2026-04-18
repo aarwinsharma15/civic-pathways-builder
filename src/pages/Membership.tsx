@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import PageSEO from "@/components/PageSEO";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Users,
@@ -30,9 +29,9 @@ const benefits = [
   { icon: FileText, text: "Resume-building civic experience" },
   { icon: Award, text: "Leadership development opportunities" },
   { icon: BookOpen, text: "Free participation in the Youth Policy Council (April 2026)" },
-  { icon: Globe, text: "Free access to Brampton Model United Nations (December 2026)" },
+  { icon: Globe, text: "Free access to Peel Model United Nations (December 2026)" },
   { icon: Mail, text: "Weekly civic newsletter" },
-  { icon: MessageSquare, text: "Access to CYI Discord community" },
+  { icon: MessageSquare, text: "Access to YOP Discord community" },
   { icon: Users, text: "Opportunity to join campaign teams, including OSAP advocacy efforts" },
 ];
 
@@ -48,9 +47,9 @@ const Membership = () => (
   <Layout>
     <PageSEO
       title="Membership"
-      description="Join the Canadian Youth Institute. Get volunteer hours, leadership experience, access to programs, and a real platform for civic engagement. Free membership for youth."
+      description="Join Youth of Peel. Get volunteer hours, leadership experience, access to programs, and a real platform for civic engagement. Free membership for youth across the Region of Peel."
       path="/membership"
-      keywords="CYI membership, join CYI, youth membership Canada, volunteer hours youth, civic engagement membership"
+      keywords="YOP membership, join Youth of Peel, youth membership Peel, volunteer hours youth, civic engagement membership"
     />
     <section className="bg-primary page-header">
       <div className="container-narrow">
@@ -67,7 +66,7 @@ const Membership = () => (
           transition={{ delay: 0.15 }}
           className="text-base md:text-lg text-primary-foreground/80 leading-relaxed"
         >
-          CYI Membership is designed for youth who are ready to break into politics, advocacy, and civic leadership. Whether you want to gain volunteer hours, build experience for your resume, strengthen your leadership skills, or simply ensure your voice is heard — this is your starting point.
+          YOP Membership is designed for youth who are ready to break into politics, advocacy, and civic leadership. Whether you want to gain volunteer hours, build experience for your resume, strengthen your leadership skills, or simply ensure your voice is heard — this is your starting point.
         </motion.p>
       </div>
     </section>
@@ -148,13 +147,13 @@ const Membership = () => (
     <section className="section-padding bg-secondary">
       <div className="container-narrow text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary-foreground mb-6">
-          Join CYI Today
+          Join YOP Today
         </h2>
         <p className="text-secondary-foreground/85 text-lg mb-10">
           No vague language. No empty promises. Just real civic experience, real leadership, and a real voice.
         </p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVgO7owVS8wreW0hUycVucNB8WpM2WEDb6Lk6Q78Hc24EGLw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
-          <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base px-10">
+          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-base px-10">
             Get Started <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </a>

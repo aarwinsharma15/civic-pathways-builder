@@ -14,9 +14,9 @@ const OurWork = () => (
   <Layout>
     <PageSEO
       title="Our Work"
-      description="See how the Canadian Youth Institute drives real civic impact — from OSAP advocacy campaigns to community canvassing across Brampton and the GTA."
+      description="See how Youth of Peel drives real civic impact — from OSAP advocacy campaigns to community canvassing across the Region of Peel."
       path="/our-work"
-      keywords="CYI advocacy, youth civic work Canada, OSAP campaign, youth activism Brampton"
+      keywords="YOP advocacy, youth civic work Peel, OSAP campaign, youth activism Brampton Mississauga Caledon"
     />
     <section className="bg-primary page-header">
       <div className="container-narrow text-center">
@@ -85,7 +85,7 @@ const OurWork = () => (
             Fair Student Funding
           </h2>
           <p className="text-foreground/80 leading-relaxed max-w-3xl mb-6">
-            CYI is mobilizing youth in response to OSAP cuts and education policy decisions that impact students across the GTA. We run petitions, door-to-door canvassing, and advocacy team initiatives!
+            YOP is mobilizing youth in response to OSAP cuts and education policy decisions that impact students across the Region of Peel. We run petitions, door-to-door canvassing, and advocacy team initiatives!
           </p>
 
           <div className="mt-10 text-center">
@@ -94,7 +94,7 @@ const OurWork = () => (
             </p>
             <div className="flex gap-6 justify-center">
               <a
-                href="https://www.linkedin.com/company/canadian-youth-institute/"
+                href="https://www.linkedin.com/company/youth-of-peel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -103,7 +103,7 @@ const OurWork = () => (
                 <Linkedin className="h-6 w-6 md:h-8 md:w-8" />
               </a>
               <a
-                href="https://www.instagram.com/cyi_global/"
+                href="https://www.instagram.com/youthofpeel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"

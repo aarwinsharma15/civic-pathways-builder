@@ -16,9 +16,9 @@ const Hiring = () => {
     <Layout>
       <PageSEO
         title="Join Our Team"
-        description="Apply to join the Canadian Youth Institute executive team. Gain real leadership experience, build your resume, and make a difference in your community. Ages 14–21."
+        description="Apply to join the Youth of Peel executive team. Gain real leadership experience, build your resume, and make a difference across the Region of Peel. Ages 14–21."
         path="/hiring"
-        keywords="CYI hiring, youth leadership positions, Canadian Youth Institute jobs, volunteer youth team"
+        keywords="YOP hiring, youth leadership positions, Youth of Peel jobs, volunteer youth team Peel"
       />
       <section className="relative min-h-[70vh] flex items-center justify-center">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${hiringHero}')` }} />
@@ -73,8 +73,8 @@ const Hiring = () => {
           >
             We're always open to hearing from motivated youth. Send us your resume and a brief message about your skills and interests.
           </motion.p>
-          <a href="mailto:info.can.cyi@gmail.com" className="text-primary font-semibold text-lg hover:underline">
-            info.can.cyi@gmail.com
+          <a href="mailto:info.youthofpeel@gmail.com" className="text-primary font-semibold text-lg hover:underline">
+            info.youthofpeel@gmail.com
           </a>
         </div>
       </section>

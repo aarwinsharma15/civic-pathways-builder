@@ -17,9 +17,9 @@ const Programs = () => (
   <Layout>
     <PageSEO
       title="Programs"
-      description="Explore CYI's youth programs — Youth Policy Council and Brampton Model United Nations. Free for members. Build policy skills, public speaking, and civic leadership."
+      description="Explore Youth of Peel's youth programs — Youth Policy Council and Peel Model United Nations. Free for members. Build policy skills, public speaking, and civic leadership."
       path="/programs"
-      keywords="youth policy council, Brampton Model United Nations, CYI programs, youth leadership programs Canada"
+      keywords="youth policy council, Peel Model United Nations, YOP programs, youth leadership programs Region of Peel"
     />
     <section className="bg-primary page-header">
       <div className="container-narrow">
@@ -53,7 +53,7 @@ const Programs = () => (
               Youth Policy Council
             </motion.h2>
             <motion.p variants={fadeUp} custom={2} className="text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
-              Members research policy issues affecting youth, draft structured recommendations, debate solutions, and present ideas publicly. The Youth Policy Council is CYI's flagship deliberative body.
+              Members research policy issues affecting youth, draft structured recommendations, debate solutions, and present ideas publicly. The Youth Policy Council is YOP's flagship deliberative body.
             </motion.p>
             <motion.div variants={fadeUp} custom={3} className="space-y-3 mb-8">
               {["Policy literacy & research skills", "Public speaking & presentation", "Legislative awareness", "Collaborative problem solving"].map((item, i) => (
@@ -75,7 +75,7 @@ const Programs = () => (
               Launching December 2026
             </motion.div>
             <motion.h2 variants={fadeUp} custom={1} className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Brampton Model United Nations
+              Peel Model United Nations
             </motion.h2>
             <motion.p variants={fadeUp} custom={2} className="text-base md:text-lg text-foreground/80 leading-relaxed mb-6">
               A one-day conference simulation where delegates are assigned countries, draft resolutions, and engage in moderated debate on pressing global issues. Professional and rigorous.
@@ -102,7 +102,7 @@ const Programs = () => (
     <section className="section-padding bg-secondary">
       <div className="container-narrow text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary-foreground mb-6">Ready to Participate?</h2>
-        <p className="text-secondary-foreground/85 text-lg mb-10">All programs are free for CYI members.</p>
+        <p className="text-secondary-foreground/85 text-lg mb-10">All programs are free for YOP members.</p>
         <Link to="/membership">
           <Button variant="default" size="lg" className="font-semibold px-10">
             Become a Member <ArrowRight className="ml-2 h-4 w-4" />

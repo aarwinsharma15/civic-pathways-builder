@@ -51,10 +51,10 @@ const Index = () => {
   return (
     <Layout>
       <PageSEO
-        title="Canadian Youth Institute (CYI) | Politics, Leadership & Civic Engagement"
-        description="The Canadian Youth Institute (CYI) is a youth-led organization empowering young Canadians through leadership programs, civic engagement initiatives, and community impact opportunities."
+        title="Youth of Peel (YOP) | Politics, Leadership & Civic Engagement"
+        description="Youth of Peel (YOP) is a youth-led organization empowering young people across the Region of Peel through leadership programs, civic engagement initiatives, and community impact opportunities."
         path="/"
-        keywords="Canadian Youth Institute, CYI, youth leadership Canada, civic engagement youth, youth programs Brampton, youth advocacy Ontario"
+        keywords="Youth of Peel, YOP, youth leadership Peel, civic engagement youth, youth programs Brampton Mississauga Caledon, youth advocacy Ontario"
       />
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -110,7 +110,7 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-base md:text-xl text-primary-foreground/85 mt-6 max-w-3xl mx-auto leading-relaxed"
           >
-            The Canadian Youth Institute (CYI) is a youth-led non-profit organization dedicated to unifying ambitious young Canadians and closing the opportunity gap they all face.
+            Youth of Peel (YOP) is a youth-led non-profit organization dedicated to unifying ambitious young people across the Region of Peel and closing the opportunity gap they all face.
           </motion.p>
         </div>
       </section>
@@ -128,7 +128,7 @@ const Index = () => {
               In Action
             </motion.h2>
             <motion.p variants={fadeUp} custom={1} className="text-base md:text-lg max-w-2xl text-muted-foreground">
-              CYI youth engaging in real civic participation across Brampton and the Greater Toronto Area.
+              YOP youth engaging in real civic participation across Brampton, Mississauga, Caledon, and the rest of the Region of Peel.
             </motion.p>
           </motion.div>
           <motion.div
@@ -168,7 +168,7 @@ const Index = () => {
               Our Mission
             </motion.h2>
             <motion.p variants={fadeUp} custom={1} className="text-lg leading-relaxed text-foreground/80">
-              The Canadian Youth Institute (CYI) is a youth-led non-profit organization dedicated to unifying ambitious young Canadians and closing the opportunity gap they all face. We aim to build a future where every young person has the resources and network to shape their own lives by empowering individuals through placements, mentorship, and networking, while driving national reform through advocacy.
+              Youth of Peel (YOP) is a youth-led non-profit organization dedicated to unifying ambitious young people across the Region of Peel and closing the opportunity gap they all face. We aim to build a future where every young person has the resources and network to shape their own lives by empowering individuals through placements, mentorship, and networking, while driving regional reform through advocacy.
             </motion.p>
           </motion.div>
         </div>
@@ -201,7 +201,7 @@ const Index = () => {
             transition={{ delay: 0.5 }}
             className="text-dark-section-foreground/70 text-lg"
           >
-            One of Brampton's largest youth-led civic organizations.
+            One of Peel's largest youth-led civic organizations.
           </motion.p>
         </div>
       </section>
@@ -226,7 +226,7 @@ const Index = () => {
                 link: "/programs",
               },
               {
-                title: "Brampton Model United Nations",
+                title: "Peel Model United Nations",
                 desc: "A one-day conference simulation where delegates represent countries, draft resolutions, and engage in moderated debate on pressing global issues.",
                 timeline: "Launching December 2026",
                 link: "/programs",
@@ -272,7 +272,7 @@ const Index = () => {
             transition={{ delay: 0.1 }}
             className="text-base md:text-lg text-secondary-foreground/85 leading-relaxed mb-10 max-w-2xl mx-auto"
           >
-            If you are passionate about your community, want your voice heard, and are looking to gain volunteer hours, resume-building experience, and real leadership skills — CYI membership is your entry point.
+            If you are passionate about your community, want your voice heard, and are looking to gain volunteer hours, resume-building experience, and real leadership skills — YOP membership is your entry point.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

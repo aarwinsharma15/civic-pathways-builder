@@ -6,20 +6,20 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "What is the Canadian Youth Institute (CYI)?",
-    answer: "The Canadian Youth Institute (CYI) is a youth-led non-profit organization that empowers young Canadians through leadership development, civic engagement, and real community impact opportunities.",
+    question: "What is Youth of Peel (YOP)?",
+    answer: "Youth of Peel (YOP) is a youth-led non-profit organization based in the Region of Peel that empowers young people through leadership development, civic engagement, and real community impact opportunities.",
   },
   {
     question: "What do we do?",
-    answer: "CYI helps youth break into politics, civic engagement, and advocacy for youth rights. We close opportunity gaps through placements, mentorship, networking, and advocacy.",
+    answer: "YOP helps youth break into politics, civic engagement, and advocacy for youth rights across Brampton, Mississauga, and Caledon. We close opportunity gaps through placements, mentorship, networking, and advocacy.",
   },
   {
     question: "How can I join?",
-    answer: "You can join by becoming a CYI member or by applying to be part of the executive team. Visit our Membership page or Hiring page to get started.",
+    answer: "You can join by becoming a YOP member or by applying to be part of the executive team. Visit our Membership page or Hiring page to get started.",
   },
   {
-    question: "Who is CYI for?",
-    answer: "CYI is for ambitious youth who want leadership experience, civic involvement, and a stronger voice in shaping their communities and public policy.",
+    question: "Who is YOP for?",
+    answer: "YOP is for ambitious youth across the Region of Peel who want leadership experience, civic involvement, and a stronger voice in shaping their communities and public policy.",
   },
 ];
 
@@ -49,9 +49,9 @@ const FAQ = () => {
     <Layout>
       <PageSEO
         title="FAQ"
-        description="Frequently asked questions about the Canadian Youth Institute (CYI), what we do, and how to join through membership or hiring opportunities."
+        description="Frequently asked questions about Youth of Peel (YOP), what we do, and how to join through membership or hiring opportunities."
         path="/faq"
-        keywords="CYI FAQ, Canadian Youth Institute questions, join CYI, youth leadership FAQ"
+        keywords="YOP FAQ, Youth of Peel questions, join YOP, youth leadership FAQ Peel"
       />
       <section className="bg-primary page-header">
         <div className="container-narrow">
@@ -68,7 +68,7 @@ const FAQ = () => {
             transition={{ delay: 0.1 }}
             className="text-base md:text-lg text-primary-foreground/85"
           >
-            Quick answers about CYI, what we do, and how you can join.
+            Quick answers about YOP, what we do, and how you can join.
           </motion.p>
         </div>
       </section>
